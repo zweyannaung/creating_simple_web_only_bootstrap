@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootstrapProject-1</title>
+    <!-- <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <style>
+      .jan{
+        background: linear-gradient( to top, rgba(13,202,240,0.5)30%,rgba(13,202,240,0.5)30%),url(/creating_bootstrap_website_1/img/demon1.jpg);
+        
+        background-size: cover;
+       
+      }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- nevbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info" style="position: sticky;top:0;z-index: 100;">
+            <div class="container">
+                <a class="navbar-brand order-1 me-0 " href="#">Presentend By Banana</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link " href="#base">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#speakers">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#schedules">Schedules</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">about</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+      </nav>
+
+    <!-- nevbar -->
+    <!-- jan -->
+        <div class=" bg-info jan" style="height: 250px;" id="base">
+            <div class="container text-center p-5">
+                <h1 class=" display-2 text-white">Full Stack Talk</h1>
+                <p class="lead text-white">It is all about the full stack Topcs</p>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#register"><span class="small fw-bold">Register Now</span></button>
+                    <a href="#schedules" type="button" class="btn btn-secondary btn-lg small">See Schedule</a>
+                  </div>
+            </div>
+        </div>
+    <!-- jan -->
+    <div class="container text-center pt-4">
+        <div class="row">
+          <div class=" col-md-4">
+            <h3 class=" mb-4">Expert Speakers</h3>
+            <p class=" " style=" text-align:justify;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia nulla, labore nihil sit ullam veniam voluptates adipisci, dolorem <br><br> fugiat tenetur praesentium maxime laboriosam ipsam at delectus est doloremque porro sequi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis repudiandae quas, explicabo deleniti aperiam doloribus vel nulla obcaecati animi, ex, dolorem quos praesentium molestias <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi nesciunt officia doloremque ullam ipsam ipsa sapiente, quidem quasi, beatae sequi voluptates aperiam aspernatur dicta eos quam et earum ratione explicabo..</p>
+          </div>
+          <div class=" col-md-4">
+            <h3 class=" mb-4">About Full Strak Conf</h3>
+            <img src="./img/wallpaper3.jpg" class="img-fluid rounded " alt="girlWithGuitar" >
+            <p class=" text-start" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus nisi deleniti placeat quisquam. Dolores <br><br>aspernatur magni consequatur reprehenderit quibusdam suscipit maiores accusantium repellendus soluta ut facere mollitia nihil, reiciendis sequi!</p>
+        </div>
+          <div class=" col-md-4">
+                <h3 class=" mb-4">What Are You Listen?</h3>
+                <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action bg-info border-info active" aria-current="true">
+                    About Full Strak Conf
+                  </a>
+                  <a href="#1" class="list-group-item list-group-item-action">Listner: <strong>Nrzuko</strong></a>
+                  <a href="#2" class="list-group-item list-group-item-action">Listner: <strong>Krato</strong></a>
+                  <a href="#3" class="list-group-item list-group-item-action">Listner: <strong>Ciri</strong></a>
+                  <a href="#4" class="list-group-item list-group-item-action">Listner: <strong>YamaMoto</strong></a>
+                  <a href="#5" class="list-group-item list-group-item-action">Listner: <strong>Groot</strong></a>
+                  <a href="#6" class="list-group-item list-group-item-action">Listner: <strong>Ellie</strong></a>
+                </div>
+          </div>
+        </div>
+
+        <hr id="speakers">
+
+        <!-- speaker -->
+
+        <h3  class=" display-4 text-center text-muted my-5">Sperker</h3>
+        <div class="row">
+          <div class=" col-md-4" id="1">
+              <div class="card mb-3">
+                <img src="./img/demon1.jpg" class="card-img-top" alt="nezuko">
+                <div class="card-body">
+                  <h5 class="card-title">Nezuko (DemonSlayer)</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam esse dolorem sit unde facilis sed veniam voluptates minus obcaecat, consequuntur eaque libero laudantium et accusamus!</p>
+                </div>
+            </div>
+          </div>
+          <div class=" col-md-4" id="2">
+            <div class="card mb-3">
+              <img src="./img/gow1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Krato (Got Of Ward)</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, laudantium. Molestiae, illo error? Quidem beatae temporibus adipisci in facilis, laborum iure eos fuga distinctio quia nesciunt impedit magnam consequuntur dignissimos. </p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-md-4" id="3">
+            <div class="card mb-3">
+              <img src="./img/the witcher.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ciri (Witcher)</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic suscipit ea laudantium nemo. Quae, dolorum. Dolore enim quis amet temporibus harum placeat? Ea ipsa laborum perferendis, nemo quibusdam autem provident. </p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-md-4" id="4">
+            <div class="card mb-3">
+              <img src="./img/wallpaper14.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">YamaMoto (Bleach)</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nam quo libero facilis quidem vitae neque vel, molestias omnis? Veritatis, dolorum cum. Magni facilis esse beatae? Voluptatibus perferendis tenetur expedita..</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-md-4" id="5">
+                <div class="card mb-3">
+                  <img src="./img/wallpaper15.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Groot (Guardian of the Galaxy)</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, esse? Commodi, quas cupiditate eveniet magnam tempore fuga dolorum ratione perferendis. Suscipit facilis debitis ratione eveniet aspernatur, laboriosam quasi possimus dignissimos? </p>
+                  </div>
+                </div>
+          </div>
+          <div class=" col-md-4" id="6">
+              <div class="card mb-3">
+                <img src="./img/wallpaper2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ellie (The Last Of Us)</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, voluptatum minima. Nisi alias dolorum ipsa laboriosam adipisci nam deserunt natus porro, saepe in sequi? Ullam est reiciendis excepturi distinctio et.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <hr id="schedules">
+
+        <!-- schedule -->
+
+        <h3 class=" display-4 text-center text-muted my-5" >Schedule</h3>
+        <ul class="list-group">
+          <li class="list-group-item border-warning">
+            <div class=" d-flex justify-content-between">
+              <h5>Kaynote: About of DemonSlayer </h5>
+              <span class="badge text-bg-primary p-2">9:00 Am</span>
+            </div>
+            <div class=""><strong>Nezuko</strong></div>
+          </li>
+          <li class="list-group-item border-warning">
+            <div class=" d-flex justify-content-between">
+              <h5>Kaynote: About of North Mathalogy</h5>
+              <span class="badge text-bg-primary p-2">10:00 Am</span>
+            </div>
+            <div class=""><strong>Karto</strong></div>
+          </li>
+          <li class="list-group-item border-warning">
+            <div class=" d-flex justify-content-between">
+              <h5>Kaynote: About of Witcher Life </h5>
+              <span class="badge text-bg-primary p-2">11:00 Am</span>
+            </div>
+            <div class=""><strong>Ciri</strong></div>
+          </li>
+          <li class="list-group-item border-warning">
+            <div class=" d-flex justify-content-between">
+              <h5>Kaynote: About of Banki</h5>
+              <span class="badge text-bg-primary p-2">1:00 Pm</span>
+            </div>
+            <div class=""><strong>YamaMoto</strong></div>
+          </li>
+          <li class="list-group-item border-warning">
+            <div class=" d-flex justify-content-between">
+              <h5>Kaynote: About of Galaxy</h5>
+              <span class="badge text-bg-primary p-2">2:00 Pm</span>
+            </div>
+            <div class=""><strong>Nezuko</strong></div>
+          </li>
+          <li class="list-group-item border-warning">
+            <div class=" d-flex justify-content-between">
+              <h5>Kaynote: About of Clicker</h5>
+              <span class="badge text-bg-primary p-2">3:00 Pm</span>
+            </div>
+            <div class=""><strong>Ellie</strong></div>
+          </li>
+
+        </ul>
+
+        <button type="button" class="btn btn-outline-info mx-auto btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#register">Don't Miss Out, Register Now</button>
+    
+    <hr>
+        <div id="about" class="row py-4 text-muted">
+          <div class="col-md col-lg-5">
+                <h6 class=" fw-bold text-start">About FullStack</h6>
+                <p class=" text-start">Lorem ipsum dolor, . Obcaecati laudant soluta quod molestiae repellendus similique, architecto doloribus sint quos facilis excepturi, tenetur hic amet!</p>
+          </div>
+          <div class="col-md col-lg-5 mx-auto">
+                <h6 class=" fw-bold text-start">Stay up-to-dape on Full Stark Conf</h6>
+                <div class="input-group">
+                        <input type="text" class="form-control " placeholder="Email" >
+                        <span class=" input-group-btn">
+                        <button class="btn btn-info rounded-0 rounded-end text-white" type="button">Sign up</button>
+                    </span>
+                </div>
+          </div>
+        </div>
+    <hr>
+
+    <!-- footer -->
+    <div class="row py-4">
+        <div class="col-md-7">
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link text-info" aria-current="page" href="#">Community</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-info" href="#">Tracks</a>
+                </li>
+                <li class="nav-item">
+                    <div class="btn-group dropup">
+                        <button type="button" class="btn btn-outline-info">Subject</button>
+                        <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">CSS</a></li>
+                        <li><a class="dropdown-item" href="#">HTMl</a></li>
+                        <li><a class="dropdown-item" href="#">JavaScript </a></li>
+                        <li><a class="dropdown-item" href="#">php</a></li>
+                        </ul>
+                    </div>  
+                </li>
+              </ul>
+        </div>
+        <div class="col-md text-md-end text-sm-end">
+            <small>&copy;2022 full stack talk &amp;Banana </small>
+        </div>
+    </div>
+
+
+    <!-- /footer -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="register" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Register Form</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-start">
+            <h5>Basic Information</h5>
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+              <strong>Hurrp Up!</strong> Free Registration ends in three days.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" >
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="text" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="select" class=" form-label"> Job Role:</label>
+              <select class="form-select" aria-label="Default select example">
+                <option value="frontEnd">Front End Developer</option>
+                <option value="backEnd">Back End Developer</option>
+                <option value="webDesign">Web Designer</option>
+                <option value="juniorStudent">Junior Student</option>
+
+              </select>
+            </div>
+            <div class=" mb-3">
+              <h5 class=" mb-3">Which topic interested you most?</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                <label class="form-check-label" for="flexCheckDefault1">
+                  JavaScript Framework
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2">
+                <label class="form-check-label" for="flexCheckChecked2">
+                  Bootstrap Library
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                <label class="form-check-label" for="flexCheckDefault3">
+                  React JS
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked4">
+                <label class="form-check-label" for="flexCheckChecked4">
+                  Node JS
+                </label>
+              </div>
+            </div>
+            <hr class="mb-3">
+            <h5 class=" mb-3"><u>Payment Info</u></h5>
+            <div class=" row">
+              <div class="mb-3 col">
+                <label for="cardNumber" class="form-label">Card number:</label>
+                <input type="text" class="form-control" id="cardNumber" >
+              </div>
+              <div class="mb-3 col">
+                <label for="zipCode" class="form-label">Zip Code:</label>
+                <input type="text" class="form-control" id="zipCode">
+              </div>
+              <div class="mb-3 col">
+                <label for="cvv" class="form-label">CVV:</label>
+                <input type="text" class="form-control" id="cvv" >
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-info">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Modal -->
+  </div>
+</body>
+</html>                                                                                 
